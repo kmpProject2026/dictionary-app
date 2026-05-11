@@ -1,4 +1,4 @@
-package ru.kpfa.dictionary.shared
+package ru.kpfa.dictionary
 
 import platform.Foundation.NSLog
 

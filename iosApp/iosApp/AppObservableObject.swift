@@ -9,7 +9,7 @@ import SwiftUI
 import shared
 
 class AppObservableObject: ObservableObject {
-    let model : DKMPViewModel = DKMPViewModel.Factory().getIosInstance()
+    let model : DictionaryViewModel = DictionaryViewModel.Factory().getIosInstance()
     var dkmpNav : Navigation {
         return self.model.navigation
     }
