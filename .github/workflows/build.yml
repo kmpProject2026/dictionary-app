@@ -57,14 +57,7 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
 
       - name: Run detekt on all source sets
-        run: |
-          ./gradlew \
-            detektMetadataCommonMain \
-            detektAndroidMain \
-            detektIosArm64Main \
-            detektIosSimulatorArm64Main \
-            detektDesktopMain \
-            detektWasmJsMain
+        run: ./gradlew detect
 
   # Шаг 3: Android build
   build-android:
