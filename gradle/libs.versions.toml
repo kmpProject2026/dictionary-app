@@ -9,6 +9,7 @@ android-material = "1.12.0"
 android-desugar-jdk = "2.1.5"
 androidx-activity-compose = "1.10.1"
 androidx-lifecycle = "2.8.7"
+detekt = "1.23.6"
 kotlinx-coroutines = "1.10.1"
 kotlinx-serialization = "1.8.0"
 kotlinx-datetime = "0.6.2"
@@ -57,3 +58,4 @@ jetbrainsCompose = { id = "org.jetbrains.compose", version.ref = "compose" }
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 sqlDelight = { id = "app.cash.sqldelight", version.ref = "sqlDelight" }
 skie = { id = "co.touchlab.skie", version.ref = "skie" }
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }

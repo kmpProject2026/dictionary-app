@@ -9,4 +9,5 @@ plugins {
     alias(libs.plugins.compose.compiler) apply false
     alias(libs.plugins.sqlDelight) apply false
     alias(libs.plugins.skie) apply false
+    alias(libs.plugins.detekt) apply false
 }
